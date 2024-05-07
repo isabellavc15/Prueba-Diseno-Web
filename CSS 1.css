@@ -1,0 +1,153 @@
+:root {
+ --color-primary: #EDB44D;
+  --color-secondary: #adb0b8;
+  --color-title: #dbdce4;
+  --color-bg-black: #09090d;
+  --color-bg-blue: #101117;
+  --color-bg-features-mobile: #121520;
+  --color-bg-footer: #040406;
+  --color-footer: #373946;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--color-secondary);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #fff;
+  color: var(--color-secondary);
+  padding: 20px 0;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--color-secondary);
+}
+.hero {
+  background-color: #121520;
+  color: var(--color-bg-black);
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.hero h3 {
+  color: var(--color-primary);
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #adb0b8;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.btn-white {
+  background-color: #EDB44D;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-white:hover {
+  background-color: var(--color-bg-blue);
+}
+
+.hero-img {
+  float: right;
+  width: 50%;
+  background-color: var(--color-bg-features-mobile);
+}
+
+.hero-img img {
+  width: 100%;
+}
+.hero-content {
+  float: left;
+  width: 50%;
+  text-align: left;
+
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: var(--color-title);
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.btn-white {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-white:hover {
+  background-color: var(--color-bg-blue);
+}
+
+.hero-img {
+  float: right;
+  width: 50%;
+  background-color: var(--color-bg-features-mobile);
+}
+.hero-img img {
+  width: 100%;
+]
